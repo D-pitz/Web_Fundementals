@@ -1,2 +1,1 @@
-# Web_Fundementals
-# web_fundementals
+These are some of the basic projects I created to get started in web development. 

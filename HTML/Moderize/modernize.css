@@ -1,0 +1,242 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    margin: auto;
+    width: 1206px;
+    background-color: #1a1a1a;
+
+}
+
+#header {
+    height: 150px;
+    color: #e4e4e4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+#header h3 {
+    padding-bottom: 50px;
+}
+
+
+#logo {
+    width: 280px;
+    height: 90px;
+
+}
+
+#navbar {
+    height: 60px;
+    width: 1206px;
+    background: linear-gradient(#525252,#2a2a2a);
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#navhome {
+    display: flex;
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+#navlist {
+    display: flex;
+    list-style-type: none;
+    padding-left: 20px;
+
+} 
+
+#navhome a {
+    color: darkgray;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+
+}
+
+#navlist a {
+    color: darkgray;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-left: solid 3px rgb(49, 49, 49);
+    border-radius: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+#mainpic {
+    width: 1206px;
+    border-bottom: 5px solid rgb(56, 56, 56);
+}
+
+#contentbox {
+    height: 185px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.content {
+    width: 270px;
+    display: flex;
+    
+}
+
+.content img{
+    height: 50px;
+    padding-right: 20px;
+
+}
+
+.context h3{
+    color: #db7c2b;
+    font-family: Noto Serif;
+
+}
+
+.context p {
+    color: white;
+    font-family: Noto Serif;
+    font-size: small;
+
+}
+
+
+.content img {
+    vertical-align: middle;
+    display: inline-block;
+
+}
+
+#purchase {
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #c3c3c2;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: repeating-linear-gradient(
+    315deg,
+    black,
+    black 4px,
+    black 4px,
+    rgb(36, 36, 36) 5px);
+
+}
+
+#purchasecontent {
+    width: 800px;
+    font-family: Roboto;
+
+}
+
+#purchasecontent p {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #db7c2b;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-size: larger;
+    box-shadow: none;
+
+}
+
+#portfolio {
+    height: 450px;
+    font-family: Noto Serif;
+
+}
+
+#porthead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    color: white;
+    padding-left: 35px;
+    margin-right: 35px;
+
+}
+
+#porthead h2 {
+    font-weight: bold;
+
+}
+
+#porthead h4 {
+    color: #db7c2b;
+    font-style: italic;
+
+}
+
+.portcontent {
+    width: 250px;
+    color: #c3c3c2;
+    padding-right: 10px;
+
+}
+
+#portbody {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.portcontent img {
+    width: 250px;
+    border-color: #363636;
+    border-width: 5px;
+    border-style: solid;
+
+}
+
+.portcontent h3 {
+    color: #db7c2b;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.portcontent {
+    font-size: 12.5px;
+    font-weight: 600;
+    line-height: 20px;
+
+}
+
+footer {
+    text-align: right;
+}
+
+footer a{
+    text-decoration: none;
+    color: grey;
+    font-size: smaller;
+    padding-right: 20px;
+}
+
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="All about steaks" content= 'This is a blog all about steaks and how to cook them.'>
+    <title>All About Steaks</title>
+    <link rel="stylesheet" href="Fake_BLog.css" >
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <h1>Steaks</h1>
+        <!-- <img id="steak" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuTg6DvjpVSEM6YeF7-u6Jr8YYJlDl65pnvH8n-HGNfEsoPrwA37sp7Xi1TA&usqp=CAc" alt="Steak Pic"> -->
+        <p>There are many different cuts of steaks. My personal favorite is a ribeye. Other popular cuts are filet mignon and New York strip. T-Bone is actually a filet and a New York strip separated by a bone in the shape of a T.</p>
+    </div>
+    <div id="list">
+        <h4>There are even steaks for vegans.</h4> 
+        <ul>
+            <li>Cauliflower</li>
+            <li>Tofu</li>
+            <li>Eggplant</li>
+        </ul>
+        <a href="https://www.youtube.com/watch?v=Hd4zqUFMSuw">Check out this video for a great Cauliflower Steak recipe.</a>
+    </div>
+    <div id= "table">
+        <h3>Steak cuts vs restaurant price</h3>
+        <table> 
+            <thead>
+                <tr>
+                    <th>steak type</th>
+                    <th>cut</th>
+                    <th>value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Meat</td>
+                    <td>Ribeye</td>
+                    <td>Good</td>
+                </tr>
+                <tr>
+                    <td>Meat</td>
+                    <td>Filet mignon</td>
+                    <td>Poor</td>
+                </tr>
+                <tr>
+                    <td>Vegan</td>
+                    <td>Cauliflower</td>
+                    <td>Great</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <form id="survey">
+        <h3>Let me know what you think about steaks!</h3>
+        <div id= 'emailInfo'>
+            <label for="email"> Email</label>
+            <input type="text" id="email">
+            <p>Would you like emails notifications when new content is posted?</p>
+        </div>
+        <div id="select">
+            <label for="Yes">Yes</label>
+            <input type="radio" id="Yes" name="pick" value="Yes">
+            <label for='No'>No</label>
+            <input type="radio" id ='No' name="pick" value="No">
+        </div>
+        <div id= 'checkbox'>
+            <p>What is your favorite steak?</p>
+                <label for="FiletMignon"> Filet Mignon</label>
+                <input type="checkbox" class="favsteak" value="filet mignon" id="FiletMignon">
+                <label for="Ribeye"> Ribeye</label>
+                <input type="checkbox" class='favsteak' value="Ribeye" id="Ribeye">
+                <label for="NewYorkStrip"> New York Strip</label>
+                <input type="checkbox" class='favsteak' value="NewYorkStrip" id='NewYorkStrip'>
+                <label for="Vegan"> Vegan</label>
+                <input type="checkbox" class='favsteak' value="Vegan" id="Vegan">
+        </div>
+        <div id="textarea">
+                <p>Why?</p>
+                <textarea name="why" id="why" cols="30" rows="10"></textarea>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+</body>
+</html>

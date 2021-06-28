@@ -1,0 +1,205 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+background-color: darkgray;
+
+}
+
+
+#container {
+    margin: auto;
+    width: 970px;
+    background-color: #245076;
+    font-family:Arial, Helvetica, sans-serif
+}
+#header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+}
+#header p {
+    padding-right: 30px;
+    padding-top: 8px;
+    color: ivory;
+    font-size: 14px;
+}
+#search{
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 15px;
+    background-color: rgb(56, 56, 56);
+    border-radius: 10px;
+    box-shadow: 2px 2px;
+    margin-right: 10px;
+}
+button {
+    background-color:#245076 ;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-color: lightgray;
+    color: white;
+}
+#searchbar {
+    padding: 8px;
+    text-align: center;
+    color: rgba(241, 34, 34, 0.062);
+}
+#pythonpic{
+    height: 100px;
+    width: 350px;
+    margin-left:15px;
+}
+#navcontainer {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#navbar{
+    width: 850px;
+    height: 50px;
+    background: radial-gradient(#3172a8,#3170a6 );
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px;
+    border-radius: 7px 7px 7px 7px;
+    font-size: 20px;
+}
+.navitems {
+    color: white;
+    text-decoration: none;
+}
+#info {
+    display: flex;
+    justify-content: space-around;
+}
+#infodocs{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    padding-top: 40px;
+    padding-left: 75px;
+}
+#infodocs li {
+    margin-bottom: 10px;
+    font-size: 15px;
+    list-style-position: inside;
+    color: #cab443;
+}
+
+.docslistlink {
+    color: white;
+    list-style-type: none;
+}
+#aboutpython {
+    width: 590px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+#pythonstory {
+    font-size: 12px;
+    color: white;
+    padding-bottom: 5px;
+}
+
+#aboutpython h3{
+    color: #cab443;
+    font-style: italic;
+    padding: 4px;
+    font-weight: 100;
+}
+#aboutpython h4 {
+    padding: 10px;
+}
+#pythonzen {
+    color: white;
+    font-weight: 100;
+}
+#pythontools {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+#pythontools h3{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 280px
+}
+#pythontools p {
+    width: 300px;
+    font-size: 14px;
+}
+#pythontools li{
+    line-height: 20px;
+    width: 270px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+#gettingstarted {
+    border-top: 5px solid rgb(33, 128, 156);
+    width: 400px;
+    text-align: center;
+    margin-left: 45px;
+} 
+#pythonpages {
+    list-style: square;
+    width: 250px;
+}
+.pythonpageslink {
+    text-decoration: none;
+    color: rgb(102, 177, 202);
+}
+
+#apps {
+    border-top: 5px solid rgb(33, 128, 156);
+    height: auto;
+    width: 400px;
+    text-align: center;
+    list-style: square;
+    padding-bottom: 15px;
+}
+#pythonpackages {
+    text-decoration: none;
+    font-size: 13px;
+    color:  rgb(102, 177, 202);
+}
+#appslist{
+    list-style: square;
+    width: 300px;
+}
+
+.appslistlink{
+    text-decoration: none;
+    color:  rgb(102, 177, 202);
+}
+
+#footer {
+    height: 100px;
+    background: linear-gradient(to bottom, #26547c,#3170a6);
+    color: rgba(173, 216, 230, 0.486);
+    text-align: center;
+    vertical-align: bottom;
+}
+#help {
+    margin: auto;
+    width: 650px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 65px;
+    padding-left: 10px;
+}
+#copy {
+    margin-top: 24px;
+    font-size: 7px;
+}
+

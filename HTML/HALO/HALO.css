@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#container {
+    margin: auto;
+    width: 1080px;
+    height: 720px;
+    background-image: url(images/light_honeycomb.png);
+}
+
+#header {
+    height: 360px;
+    background-image: url(images/halobanner.jpg);
+    background-size: cover;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 1080px;
+    list-style-type: none;
+    color: white;
+    background-color: rgba(15, 15, 15, 0.397);
+}
+
+#navlist img{
+    width: 150px;
+}
+
+#navlist {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+}
+#nav2box {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#navlist2{
+    width: 350px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+#buttonbox {
+    width: 400px;
+    
+}
+    
+button {
+    background-color: #1572a4;
+    border: none;
+    padding: 10px;
+
+}
+#footer {
+    height: 260px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footercontent {
+    width: 300px;
+    color: black;
+}
+.footercontent img {
+    width: 300px;
+}
+
+
+    
